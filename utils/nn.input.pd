@@ -1,0 +1,12 @@
+#N canvas 1385 586 389 354 16;
+#X obj 53 46 inlet index;
+#X obj 191 46 inlet s_input;
+#X obj 90 139 nn.read_array;
+#X obj 53 74 t f f;
+#X obj 53 216 outlet index;
+#X obj 168 216 outlet value;
+#X connect 0 0 3 0;
+#X connect 1 0 2 1;
+#X connect 2 0 5 0;
+#X connect 3 0 4 0;
+#X connect 3 1 2 0;
