@@ -1,0 +1,13 @@
+#N canvas 685 455 396 338 16;
+#X obj 52 59 inlet index;
+#X obj 172 195 outlet value;
+#X obj 204 59 inlet symbol;
+#X msg 206 129 1;
+#X obj 172 162 array get;
+#X obj 204 87 t s b;
+#X connect 0 0 4 0;
+#X connect 2 0 5 0;
+#X connect 3 0 4 1;
+#X connect 4 0 1 0;
+#X connect 5 0 3 0;
+#X connect 5 1 4 2;
