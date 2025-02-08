@@ -1,0 +1,15 @@
+#N canvas 1724 735 1180 667 16;
+#X obj 480 70 inlet dollar_zero;
+#X obj 459 261 f;
+#X obj 280 345 list prepend;
+#X obj 280 454 outlet;
+#X obj 155 74 inlet message;
+#X msg 280 382 symbol \$1_\$2;
+#X obj 156 164 t a b;
+#X connect 0 0 1 1;
+#X connect 1 0 2 1;
+#X connect 2 0 5 0;
+#X connect 4 0 6 0;
+#X connect 5 0 3 0;
+#X connect 6 0 2 0;
+#X connect 6 1 1 0;
