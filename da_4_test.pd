@@ -1,4 +1,4 @@
-#N canvas 436 237 1265 1016 16;
+#N canvas 440 273 1265 1016 16;
 #X obj 33 18 array define foo 4;
 #X obj 379 104 array set foo;
 #X msg 353 48 1 2 3 4;
@@ -24,7 +24,6 @@
 #X obj 997 105 array set d;
 #X msg 828 51 11 12 13;
 #X msg 971 49 14 15 16;
-#X obj 465 309 nn.da_4, f 35;
 #X msg 506 232 symbol foo;
 #X msg 621 233 symbol a;
 #X msg 707 230 symbol b;
@@ -35,6 +34,8 @@
 #X obj 598 476 array get result;
 #X obj 545 436 bng 23 250 50 0 empty empty empty 0 -12 0 16 #fcfcfc #000000 #000000;
 #X obj 597 527 print result;
+#X obj 795 651 nn.da_4x4;
+#X obj 465 309 nn.da_4x4, f 35;
 #X connect 2 0 1 0;
 #X connect 3 0 5 0;
 #X connect 4 0 3 0;
@@ -48,12 +49,12 @@
 #X connect 20 0 19 0;
 #X connect 23 0 21 0;
 #X connect 24 0 22 0;
-#X connect 26 0 25 1;
-#X connect 27 0 25 2;
-#X connect 28 0 25 3;
-#X connect 29 0 25 4;
-#X connect 30 0 25 5;
-#X connect 31 0 25 6;
-#X connect 32 0 25 0;
-#X connect 33 0 35 0;
-#X connect 34 0 33 0;
+#X connect 25 0 36 1;
+#X connect 26 0 36 2;
+#X connect 27 0 36 3;
+#X connect 28 0 36 4;
+#X connect 29 0 36 5;
+#X connect 30 0 36 6;
+#X connect 31 0 36 0;
+#X connect 32 0 34 0;
+#X connect 33 0 32 0;
