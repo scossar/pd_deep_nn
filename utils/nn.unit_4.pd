@@ -1,4 +1,4 @@
-#N canvas 4 112 2174 1096 16;
+#N canvas 8 148 2174 1096 16;
 #X obj 18 10 inlet index;
 #X obj 316 10 inlet a_prev_1;
 #X obj 594 10 inlet a_prev_2;
@@ -95,6 +95,7 @@
 #X connect 40 0 39 0;
 #X connect 41 0 47 0;
 #X connect 42 0 12 0;
+#X connect 42 1 25 0;
 #X connect 42 2 41 0;
 #X connect 42 3 40 0;
 #X connect 42 4 38 0;
