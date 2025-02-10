@@ -1,4 +1,4 @@
-#N canvas 1874 150 591 571 16;
+#N canvas 1882 222 591 571 16;
 #X obj 39 52 inlet bang;
 #X obj 208 79 t b s s;
 #X obj 213 132 array size;

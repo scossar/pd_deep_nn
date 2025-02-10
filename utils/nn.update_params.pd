@@ -1,4 +1,4 @@
-#N canvas 885 309 1009 906 16;
+#N canvas 893 381 1009 906 16;
 #X obj 61 58 inlet bang;
 #X obj 357 650 expr $f1 - ($f2 * $f3), f 57;
 #X obj 378 166 array size;
