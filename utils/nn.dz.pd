@@ -1,4 +1,4 @@
-#N canvas 1706 102 1458 962 16;
+#N canvas 1539 98 1458 962 16;
 #X obj 1063 101 loadbang;
 #X obj 1063 138 list store \$1;
 #X msg 1063 227 1;
@@ -48,6 +48,7 @@
 #X connect 6 0 35 2;
 #X connect 7 0 35 2;
 #X connect 8 0 28 0;
+#X connect 10 0 11 0;
 #X connect 10 1 25 0;
 #X connect 10 2 11 1;
 #X connect 10 3 12 2;

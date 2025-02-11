@@ -1,4 +1,4 @@
-#N canvas 864 418 1169 844 16;
+#N canvas 1721 332 1169 844 16;
 #X obj 363 29 inlet symbol;
 #X obj 369 116 array size;
 #X obj 119 324 random 100000;
