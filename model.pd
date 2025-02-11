@@ -15,7 +15,7 @@
 #X restore 83 104 pd bin_bang;
 #X msg 141 72 64;
 #X obj 141 39 r \$0_init;
-#N canvas 150 643 337 212 init 0;
+#N canvas 154 679 337 212 init 0;
 #X obj 26 21 inlet init;
 #X obj 26 49 t b b;
 #X obj 26 127 s \$0_init;
