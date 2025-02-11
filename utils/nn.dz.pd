@@ -1,4 +1,4 @@
-#N canvas 24 86 1458 962 16;
+#N canvas 1706 102 1458 962 16;
 #X obj 1063 101 loadbang;
 #X obj 1063 138 list store \$1;
 #X msg 1063 227 1;
@@ -8,7 +8,7 @@
 #X msg 1246 227 4;
 #X msg 1308 227 0;
 #X obj 34 102 inlet bang;
-#X text 18 10 // dZ^[l] = dA^[l] x g^[l]'(Z^[l]);
+#X text 18 9 // dZ^[l] = dA^[l] x g^[l]'(Z^[l]);
 #X obj 255 127 t b b s s;
 #X obj 224 165 array size;
 #X obj 345 508 array get;
