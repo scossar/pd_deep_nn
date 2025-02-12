@@ -1,4 +1,4 @@
-#N canvas 1748 252 930 1100 16;
+#N canvas 1946 267 930 1100 16;
 #X obj 34 173 inlet bang;
 #X obj 506 416 array size;
 #X obj 521 718 array get, f 13;
