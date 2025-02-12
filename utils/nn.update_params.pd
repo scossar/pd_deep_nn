@@ -1,4 +1,4 @@
-#N canvas 897 417 1009 906 16;
+#N canvas 905 489 1009 906 16;
 #X obj 61 58 inlet bang;
 #X obj 357 650 expr $f1 - ($f2 * $f3), f 57;
 #X obj 378 166 array size;
@@ -19,8 +19,10 @@
 #X obj 660 58 inlet s_dparam;
 #X obj 810 58 inlet alpha;
 #X obj 378 133 t b s s, f 10;
+#X floatatom 260 704 5 0 0 0 - - - 0;
 #X connect 0 0 4 0;
 #X connect 1 0 12 0;
+#X connect 1 0 20 0;
 #X connect 2 0 3 1;
 #X connect 3 0 6 0;
 #X connect 4 0 14 0;

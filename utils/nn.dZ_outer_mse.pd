@@ -1,4 +1,4 @@
-#N canvas 1554 181 1339 1067 16;
+#N canvas 1107 215 1339 1067 16;
 #X obj 27 114 inlet bang;
 #X obj 315 113 inlet s_A;
 #X obj 915 112 inlet s_Y;
@@ -20,6 +20,7 @@
 #X obj 27 958 outlet done;
 #X text 23 16 // MSE Loss: L = 1/2(A - Y)^2 \; dL/dA = (A - Y) \; g'(Z) = 1 \; Therefore: dZ = dA x g'(Z) = (A - Y) x 1 = (A - Y);
 #X obj 283 596 t f f f, f 83;
+#X floatatom 471 922 5 0 0 0 - - - 0;
 #X connect 0 0 17 0;
 #X connect 1 0 14 0;
 #X connect 2 0 11 2;
@@ -34,6 +35,7 @@
 #X connect 10 0 15 0;
 #X connect 11 0 13 1;
 #X connect 13 0 12 0;
+#X connect 13 0 21 0;
 #X connect 14 0 3 0;
 #X connect 14 1 3 1;
 #X connect 14 2 9 2;

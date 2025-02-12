@@ -1,4 +1,4 @@
-#N canvas 1385 586 389 354 16;
+#N canvas 1393 658 389 354 16;
 #X obj 53 46 inlet index;
 #X obj 191 46 inlet s_input;
 #X obj 90 139 nn.read_array;
