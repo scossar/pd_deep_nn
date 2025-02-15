@@ -1,4 +1,4 @@
-#N canvas 372 204 1318 1036 16;
+#N canvas 380 276 1318 1036 16;
 #X text 17 7 // dZ^[l] = dA^[l] x g^[l]'(Z^[l]) \; args: \; \$1: symbol dA array \; \$2: symbol Z array \; \$3: symbol A array \; \$4: symbol dZ array \; \$5: symbol activation type;
 #X msg 1003 468 1;
 #X msg 1064 468 2;
