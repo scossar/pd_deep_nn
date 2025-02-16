@@ -1,5 +1,5 @@
 #N canvas 12 70 1708 1332 16;
-#N canvas 523 140 1038 1240 arrays 0;
+#N canvas 527 162 1038 1240 arrays 0;
 #N canvas 1502 405 601 532 comment 0;
 #X obj 101 101 cnv 23 398 298 empty empty empty 20 12 0 16 #e0e0e0 #404040 0;
 #X text 151 122 Back propagation \; dZ^[l] = dA^[l] x g^[l]'(Z^[l]) \; dW^[l] = 1/m x dZ^[l]A^[l-1]T \; db^[l] = 1/m x sum(dZ^[l]) \; dA^[l-1] = W^[l]T . dZ^[l] \; layer shapes \; L (1 \, 2) \; L-1 (2 \, 2) \; L-2 (2 \, 2) \; input (n_x \, m) = (2 \, 4);
@@ -687,17 +687,17 @@
 #X msg 42 136 bang;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X array \$0_X 8 float 3;
-#A 0 0 -0.871974 -0.853753 0.0360649 0.889061 0.834424 -0.0720829 -0.904986;
+#A 0 0 0.864203 -0.869636 0.0108973 0.858667 -0.874968 0.0217933 0.85303;
 #X coords 0 1 8 -1 200 140 1;
 #X restore 50 651 graph;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X array \$0_Y 8 float 3;
-#A 0 0 0.877257 0.842203 -0.0687111 -0.908165 -0.803171 0.137097 0.934782;
+#A 0 0 0.758138 0.988755 0.531383 -0.295731 -0.917078 -0.900303 -0.257106;
 #X coords 0 1 8 -1 200 140 1;
 #X restore 52 821 graph;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X array \$0_aL 8 float 3;
-#A 0 0.0535109 0.611423 0.604818 0.0204501 -0.459045 -0.444047 0.111962 0.608593;
+#A 0 -0.0318336 0.0379372 -0.0563297 -0.0312262 0.0374324 -0.0563637 -0.0306026 0.0369095;
 #X coords 0 1 8 -1 200 140 1;
 #X restore 49 988 graph;
 #N canvas 266 256 1437 1146 reset 0;
@@ -1410,7 +1410,7 @@
 #X obj 176 365 expr sin($f1 * $f2);
 #X obj 753 13 expr if($f1 > 7 \, -0.5 \, 0.5);
 #X obj 253 23 inlet;
-#X obj 325 339 nbx 5 21 -1e+37 1e+37 0 1 empty empty empty 0 -12 0 16 #fcfcfc #000000 #000000 42.9231 256;
+#X obj 325 339 nbx 5 21 -1e+37 1e+37 0 1 empty empty empty 0 -12 0 16 #fcfcfc #000000 #000000 27.2308 256;
 #X obj 753 145 expr if($f1 < $f2 \, 0.3 \, if($f1 < 11 \, 1 \, 0.5));
 #X obj 753 57 expr cos($f1) * 3;
 #X obj 753 101 expr if($f1 < 5 \, -0.5 \, if($f1 < 11 \, 0.1 \, -0.8));
@@ -1436,7 +1436,7 @@
 #X connect 2 0 1 0;
 #X restore 576 450 pd ns_symbol;
 #X msg 576 415 Y;
-#X obj 656 332 nbx 5 21 -1e+37 1e+37 0 1 empty empty empty 0 -12 0 16 #fcfcfc #000000 #000000 38.7692 256;
+#X obj 656 332 nbx 5 21 -1e+37 1e+37 0 1 empty empty empty 0 -12 0 16 #fcfcfc #000000 #000000 63.6923 256;
 #X obj 176 214 t f f f f, f 46;
 #X obj 210 142 spigot, f 10;
 #X obj 325 23 inlet;
