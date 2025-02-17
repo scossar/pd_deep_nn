@@ -1,4 +1,4 @@
-#N canvas 357 144 1117 1149 16;
+#N canvas 1657 118 1117 1149 16;
 #X obj 37 244 inlet bang;
 #X obj 325 387 array size;
 #X obj 304 422 f 1;
@@ -51,6 +51,7 @@
 #X text 638 224 // y_hat;
 #X text 834 226 // Y;
 #X text 1005 221 // dZ;
+#X text 484 16 // NOTE: technically this is calculating dAL;
 #X connect 0 0 14 0;
 #X connect 1 0 2 1;
 #X connect 2 0 3 0;
