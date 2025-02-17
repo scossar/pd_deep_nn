@@ -505,8 +505,8 @@
 #X obj 481 872 nn.dw_1x2 dzL-1_2 aL-2_1 aL-2_2 dwL-1_2;
 #X obj 481 915 nn.db_1x1 dzL-1_1 dbL-1_1;
 #X obj 481 958 nn.db_1x1 dzL-1_2 dbL-1_2;
-#N canvas 543 114 770 970 bits_and_bobs 0;
-#N canvas 1444 479 291 176 ns_symbol 0;
+#N canvas 547 150 770 970 bits_and_bobs 0;
+#N canvas 1448 515 291 176 ns_symbol 0;
 #X obj 71 46 r \$0_ns;
 #X obj 29 45 d_0;
 #X obj 29 15 inlet raw_message;
@@ -520,7 +520,7 @@
 #X obj 74 59 t b a;
 #X msg 75 30 dwL;
 #X obj 313 153 array set;
-#N canvas 2608 963 427 257 array_args 0;
+#N canvas 1643 634 427 257 array_args 0;
 #X obj 81 24 inlet message;
 #N canvas 1444 479 291 176 ns_symbol 0;
 #X obj 71 46 r \$0_ns;
