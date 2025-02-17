@@ -1,4 +1,4 @@
-#N canvas 2761 70 675 1332 16;
+#N canvas 856 220 1617 650 16;
 #X msg 23 17 bang;
 #X obj 23 45 f \$0;
 #X obj 23 73 s \$0_ns;
