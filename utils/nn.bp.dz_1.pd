@@ -1,6 +1,6 @@
-#N canvas 866 271 1893 1032 16;
+#N canvas 934 256 1893 1032 16;
 #X obj 46 179 inlet bang;
-#X obj 160 179 inlet dz;
+#X obj 1193 179 inlet dz;
 #X obj 446 179 inlet da;
 #X obj 731 179 inlet z;
 #X obj 979 179 inlet a;
