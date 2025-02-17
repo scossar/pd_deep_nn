@@ -1,4 +1,4 @@
-#N canvas 363 210 1351 1117 16;
+#N canvas 277 167 1351 1117 16;
 #X obj 166 122 inlet bang;
 #X obj 551 1061 array set, f 37;
 #X obj 166 906 outlet done;
@@ -8,7 +8,7 @@
 #X obj 551 823 nn.element_wise_product, f 30;
 #X obj 523 596 list store;
 #X obj 762 596 list store;
-#N canvas 1779 696 560 588 dw_iterator 0;
+#N canvas 1201 472 560 588 dw_iterator 0;
 #X obj 147 26 inlet init;
 #X obj 263 26 inlet symbol;
 #X obj 263 146 array size;
