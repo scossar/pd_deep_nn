@@ -1,0 +1,8 @@
+#N canvas 1497 631 520 300 16;
+#X obj 83 64 inlet;
+#X obj 83 92 s \$0_print;
+#X obj 84 166 r \$0_print;
+#X obj 84 194 print dollar_zero_message received;
+#X text 19 11 // testing to make sure that \$0 values are unique to each instance of an abstraction. That seems to be the case.;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
