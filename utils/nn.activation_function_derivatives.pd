@@ -1,0 +1,13 @@
+#N canvas 440 431 1235 521 16;
+#X obj 26 333 inlet z;
+#X obj 302 333 inlet a;
+#X obj 578 333 inlet negative_slope;
+#X obj 855 333 inlet activation_number;
+#X obj 26 361 expr if($f4 == 1 \, if($f1 >= 0 \, 1 \, $f3) \, if($f4 == 2 \, 1 - pow($f2 \, 2) \, if($f4 == 3 \, $f2 * (1 - $f2) \, 1))), f 104;
+#X obj 26 389 outlet g_prime;
+#X text 22 12 // inlets \; 1: float z (the cached linear value from forward propagation) \; 2: float a (the cached activation value from forward propagation) \; 3: float negative slope (the negative slope that's used for Leaky ReLU activations) \; 4: int activation type (1: Leaky ReLU \, 2: tanh \, 3: sigmoid \, 4: linear) \; NOTE: any activation type number other than 1 \, 2 \, or 3 will be considered as linear \; NOTE: the derivatives are simplified in a way that's made possible by having access to the activation value from the forward pass \;;
+#X connect 0 0 4 0;
+#X connect 1 0 4 1;
+#X connect 2 0 4 2;
+#X connect 3 0 4 3;
+#X connect 4 0 5 0;

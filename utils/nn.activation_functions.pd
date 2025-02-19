@@ -1,0 +1,11 @@
+#N canvas 282 134 1142 549 16;
+#X obj 30 321 inlet z_value;
+#X obj 891 321 inlet activation_number;
+#X obj 30 349 expr if($f3 == 1 \, max($f2 * $f1 \, $f1) \, if($f3 == 2 \, tanh($f1) \, if($f3 == 3 \, 1 / (1 + exp(-1 * $f1)) \, $f1))), f 108;
+#X obj 30 377 outlet activation;
+#X obj 460 321 inlet negative_slope;
+#X text 21 9 // inlets \; 1: float z_value (the output of the linear function) \; 2: float negative slope (the alpha parameter that's used for (Leaky) ReLU calculations \; 3: integer activation number \; outlets \; 1: float activation \; activation numbers \; 1: Leaky ReLU \; 2: tanh \; 3: sigmoid \; 4: linear (currently any value other than 1 \, 2 \, or 3 \, will trigger linear output) \;;
+#X connect 0 0 2 0;
+#X connect 1 0 2 2;
+#X connect 2 0 3 0;
+#X connect 4 0 2 1;
