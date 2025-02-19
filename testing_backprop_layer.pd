@@ -1,4 +1,4 @@
-#N canvas 1719 70 1717 1332 16;
+#N canvas 1735 70 1701 1332 16;
 #X msg 23 17 bang;
 #X obj 23 45 f \$0;
 #X obj 23 73 s \$0_ns;
@@ -114,7 +114,7 @@
 #X obj 352 658 array define -k \$0_dbL-1_2 1;
 #A 0 4.5;
 #X restore 23 134 pd arrays;
-#N canvas 245 238 1525 794 initialize_arrays 0;
+#N canvas 249 274 1525 794 initialize_arrays 0;
 #N canvas 1758 400 427 257 array_args_safe 0;
 #X obj 81 24 inlet message;
 #N canvas 1448 515 223 141 ns_symbol 0;
