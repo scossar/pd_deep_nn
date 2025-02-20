@@ -1,1 +1,8 @@
-#N canvas 1156 274 1141 845 16;
+#N canvas 4 70 1223 1121 16;
+#X obj 257 315 expr max($f1 \, $f2);
+#X floatatom 233 254 5 0 0 0 - - - 0;
+#X floatatom 419 251 5 0 0 0 - - - 0;
+#X obj 260 368 print max;
+#X connect 0 0 3 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 1;
